@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Bootstrap Example</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script
+	src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+	<main class="container ">
+		<header style="height: 30px; background-color: #34b39e">
+
+
+		
+			<marquee  behavior="alternate">
+			<audio controls style="height: 30px" autoplay="autoplay">
+
+				<source
+					src="C:\Users\HP\OneDrive\Desktop\future-mask-off-aesthetic-remix-55093.mp3"
+					type="audio/mpeg">
+
+			</audio>
+			</marquee>
+        <script >
+          function changeimage(){
+        	  var obj = document.getElementById("img1");
+        	 obj.src="C:\Users\HP\OneDrive\Desktop\Code Reusability.png";
+       }
+        
+       </script>
+       
+       
+       <script >
+         function checkEmpty(){
+        	var emailObj=window.document.getElementById("email");
+        	var emailText=emailObj.value;
+        	if(emailText.length==0){
+      document.getElemnetById("email").innerHTML="sorry email should not be empty";
+        		 emailObj.focus();
+        	return;
+         }
+       document.formAuth[0].submit();
+       
+         }
+       
+       
+       </script>
+       
+       <script >
+          alert("its ok");
+       
+        
+   </script>
+   	    
+
+		</header>
+		
+		<h2>Button Styles</h2>
+		<button type="button" class="btn">Basic</button>
+		<button type="button" class="btn btn-primary">
+			Primary <span class="spinner-border spinner-border-sm"></span>
+		</button>
+		<button type="button" class="btn btn-secondary">Secondary</button>
+		<button type="button" class="btn btn-success">Success</button>
+		<button type="button" class="btn btn-info">Info</button>
+		<button type="button" class="btn btn-warning">Warning</button>
+		<button type="button" class="btn btn-danger">Danger</button>
+		<button type="button" class="btn btn-dark">Dark</button>
+		<button type="button" class="btn btn-light">Light</button>
+		<button type="button" class="btn btn-link">Link</button>
+	
+
+	 <img  id="img1" alt="hi" style="width: 50%"
+			src="C:\Users\HP\OneDrive\Desktop\Take_in_the_Scenery.jpg">
+			<hr/>
+	<style>
+      p.double {outline-style: double;}
+      </style>
+      
+<form name="formAuth"   action="auth"    method="post">
+     <div class="form-group">
+			<label for="Name" style="height: 20px w; width: 15%">
+			<span style="font-family:cursive; font-size: 18px ">Name</span>
+			</label> 
+			<input type="text" id="name" style="width: 35%" >
+    </div>
+	<div>
+			<label for="Name" style="height: 25px; width: 15%">
+			<span style="font-family:cursive; font-size: 18px ">Email</span>
+			</label> 
+			<input id="email"
+				name="text" style="width: 35%" p class="dotted">A dotted outline>
+
+	</div class="form-group">
+		<button type="button" class="btn btn-warning" type="button"  >Go!Go!Go! </button>
+		<button type="button" class="btn btn-danger" onclick="alert();">Clear!</button>
+			
+</form>	
+	<style>
+p {outline-color:red;}
+
+p.dotted {outline-style: dotted;}
+p.dashed {outline-style: dashed;}
+p.solid {outline-style: solid;}
+p.double {outline-style: double;}
+p.groove {outline-style: groove;}
+p.ridge {outline-style: ridge;}
+p.inset {outline-style: inset;}
+p.outset {outline-style: outset;}
+
+</style>	
+<p class="dotted">A dotted outline</p>
+<style>
+    .ffooter {
+  position: fixed;
+  left: 20 px;
+  bottom: 5 px;
+  width: 80%;
+  height:30px;
+  background-color: #72b4bf;
+  color: green;
+  text-align: center;
+}
+</style>
+<footer class="ffooter"/> 
+
+</main>
+</body>
+</html>
